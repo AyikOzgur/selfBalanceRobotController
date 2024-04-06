@@ -1,0 +1,3 @@
+[submodule "3rdparty/plotOpenCv"]
+	path = 3rdparty/plotOpenCv
+	url = https://github.com/ConstantRobotics-Ltd/plotOpenCv.git
