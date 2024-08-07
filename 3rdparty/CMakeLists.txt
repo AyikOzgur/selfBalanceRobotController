@@ -29,6 +29,8 @@ SET(${PARENT}_SUBMODULE_CACHE_OVERWRITE OFF CACHE BOOL "" FORCE)
 SET(${PARENT}_PLOT_OPENCV                               ON  CACHE BOOL "" FORCE)
 SET(${PARENT}_PLOT_OPENCV_TEST                          OFF CACHE BOOL "" FORCE)
 
+SET(${PARENT}_SERIAL_PORT                               ON  CACHE BOOL "" FORCE)
+SET(${PARENT}_SERIAL_PORT_EXAMPLES                      OFF CACHE BOOL "" FORCE)
 
 
 ################################################################################
@@ -36,3 +38,4 @@ SET(${PARENT}_PLOT_OPENCV_TEST                          OFF CACHE BOOL "" FORCE)
 ## Adding subdirectories according to the 3rd-party configuration
 ################################################################################
 add_subdirectory(plotOpenCv)
+add_subdirectory(SerialPort)

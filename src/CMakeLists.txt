@@ -31,3 +31,4 @@ endif()
 # Link your executable with OpenCV libraries
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 target_link_libraries(${PROJECT_NAME} plotOpenCv)
+target_link_libraries(${PROJECT_NAME} SerialPort)

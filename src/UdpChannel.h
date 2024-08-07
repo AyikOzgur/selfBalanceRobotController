@@ -5,6 +5,7 @@ class UdpChannel
 {
 public:
 
+    ~UdpChannel();
     bool init(std::string myIp, int myPort, std::string remoteIp, int remotePort);
 
     bool sendData(uint8_t *data, int sizeOfData);

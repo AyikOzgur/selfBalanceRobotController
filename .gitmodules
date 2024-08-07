@@ -1,3 +1,6 @@
 [submodule "3rdparty/plotOpenCv"]
 	path = 3rdparty/plotOpenCv
 	url = https://github.com/ConstantRobotics-Ltd/plotOpenCv.git
+[submodule "3rdparty/SerialPort"]
+	path = 3rdparty/SerialPort
+	url = https://github.com/ConstantRobotics-Ltd/SerialPort.git
